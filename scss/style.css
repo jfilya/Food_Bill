@@ -1,0 +1,257 @@
+@font-face {
+  font-family: Product Sans;
+  src: url(../fonts/ProductSans-Bold.ttf);
+  src: url(../fonts/ProductSans-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+body,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Product Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+.container {
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 91px;
+  max-width: 488px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+}
+h2 span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+  color: #f16214;
+  margin-bottom: 6px;
+}
+
+.lorem {
+  font-size: 16px;
+  line-height: 24px;
+  color: #888888;
+}
+
+header {
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url(../img/Product.png);
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 141px;
+}
+.header__top__logo {
+  margin-right: 178px;
+}
+.header__top__nav {
+  display: flex;
+  align-items: center;
+}
+.header__top__nav-home {
+  color: #f16214;
+  font-weight: bold;
+}
+.header__top__nav li {
+  margin-right: 30px;
+}
+.header__top__nav li:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.header__top__nav li a {
+  font-size: 16px;
+  line-height: 19px;
+}
+.header__top__nav li button {
+  background-color: #f16214;
+  color: #fff;
+  border-radius: 120px;
+  padding: 7px 17px;
+  font-size: 13px;
+  line-height: 16px;
+}
+.header__middle {
+  padding-bottom: 130px;
+}
+.header__middle p {
+  max-width: 570px;
+  margin-bottom: 40px;
+}
+.header__middle__btn {
+  border-radius: 54px;
+  background-color: #f16214;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.header__middle__btn:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.header__middle__btn span {
+  padding: 13px 19px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+}
+.header__middle__btn svg {
+  margin-right: 5px;
+}
+.header__middle__social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 229px;
+}
+
+.feature {
+  padding-top: -20px;
+  box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
+  border-radius: 60px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 133px 60px 87px;
+}
+.feature__block {
+  height: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature__block p {
+  font-weight: bold;
+}
+.feature__block span {
+  font-size: 13px;
+  color: #888888;
+}
+.feature__line {
+  background: #dddddd;
+  height: 97px;
+  width: 1.5px;
+}
+
+.howtowork {
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-image: url(../img/imagework.png);
+}
+.howtowork__food {
+  padding: 158px 0;
+  justify-content: flex-end;
+  display: flex;
+}
+.howtowork__food__right {
+  max-width: 570px;
+}
+.howtowork__food__right h2 {
+  max-width: 527px;
+  margin-bottom: 45px;
+}
+.howtowork__food__right p {
+  margin-bottom: 29px;
+}
+
+.services {
+  padding: 97px 0 100px 0;
+}
+.services h2 {
+  text-align: center;
+  margin-bottom: 59px;
+}
+.services__choose {
+  display: flex;
+  justify-content: space-between;
+}
+.services__choose__service {
+  padding: 70px 36px 72px 36px;
+  text-align: center;
+  border: 2px solid #eeeeee;
+  border-radius: 60px 0px;
+  width: 370px;
+  height: 395px;
+}
+.services__choose__service:hover {
+  border: 0px;
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+}
+.services__choose__service svg {
+  margin-bottom: 44px;
+}
+.services__choose__service-title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 29px;
+}
+.services__choose__service-text {
+  color: #888888;
+  line-height: 26px;
+}/*# sourceMappingURL=style.css.map */
