@@ -444,10 +444,11 @@ header {
 }
 .burgers {
   background: url(../img/BGburgers.svg);
-  width: 1170px;
+  max-width: 1170px;
   height: 300px;
   display: flex;
   justify-content: space-between;
+  border-radius: 60px 0px;
   &__image {
     width: 460px;
     height: 460px;
@@ -574,31 +575,270 @@ footer {
     }
   }
 }
-.seebtn{
-    margin-bottom: 0px;
+.seebtn {
+  margin-bottom: 0px;
 }
+
 @media (max-width: 1440px) {
+  .container {
+    max-width: 100%;
+  }
+  header {
+    background-image: url(../img/Product1400.png);
+  }
+  .howtowork {
+    background-image: url(../img/image1400.png);
+    background-size: auto;
+  }
 }
 
 @media (max-width: 1280px) {
+  header {
+    background-image: url(../img/Product1025.png);
+  }
+  .header {
+    &__middle {
+      p {
+        max-width: 536px;
+      }
+    }
+  }
+  .howtowork {
+    &__food {
+      &__right {
+        max-width: 455px;
+      }
+    }
+  }
+  .download {
+    &__bg {
+      background-size: auto;
+      &__images {
+        right: 10%;
+      }
+    }
+  }
+  .products {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+  .header__middle {
+    p {
+      max-width: 470px;
+    }
+  }
+  .howtowork {
+    &__food {
+      &__right {
+        max-width: 386px;
+      }
+    }
+  }
+  .download {
+    &__bg {
+      background-size: auto;
+      &__images {
+        right: 15%;
+      }
+    }
+  }
 }
 
 @media (max-width: 960px) {
+  header {
+    background-image: url(../img/Product769.png);
+  }
+  .howtowork {
+    background-position: top left;
+  }
+  .wrapper {
+    &__image {
+      width: 50%;
+    }
+  }
+  .howtowork {
+    &__food {
+      padding-bottom: 0px;
+      &__right {
+        max-width: 100%;
+        padding-top: 274px;
+      }
+    }
+  }
+  .header {
+    &__top {
+      justify-content: space-between;
+      &__logo {
+        margin-right: 0;
+      }
+    }
+  }
+  .download {
+    &__bg {
+      padding: 25px 29px;
+      &__images {
+        right: 0%;
+        &-img1 {
+          top: -29%;
+        }
+        &-img2 {
+          display: none;
+        }
+      }
+    }
+  }
+  .burgers {
+    &__image {
+      img {
+        width: 100%;
+        top: 6%;
+      }
+    }
+  }
+  .services {
+    &__choose {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+  h1 {
+    max-width: 347px;
+  }
+  .header__middle p {
+    max-width: 383px;
+  }
+  .services__choose__service {
+    margin-bottom: 30px;
+  }
+  .footer__block{
+    margin-bottom: 30px;
+  }
 }
 
-@media (max-width: 768x) {
+@media (max-width: 768px) {
+  .header {
+    &__top {
+      display: block;
+      padding-bottom: 60px;
+      &__logo {
+        margin-bottom: 20px;
+      }
+    }
+    &__middle {
+      p {
+        max-width: 350px;
+      }
+    }
+  }
+  .header__top__nav li {
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .feature {
+    padding: 10px;
+  }
+  .burgers {
+    &__image {
+      display: none;
+    }
+  }
+  .download__bg__images-img1 {
+    right: -16%;
+  }
+  .burgers {
+    &__info {
+      padding: 50px 30px 51px 30px;
+    }
+  }
+  .burgers__info__choose-btn {
+    right: -1%;
+  }
+  .items {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+  header {
+    background-image: url(../img/Product421.png);
+    background-position: bottom right;
+  }
+  .header__top {
+    padding-bottom: 20px;
+  }
+  .header__top__nav {
+    display: none;
+  }
+  .header__middle {
+    padding-bottom: 367px;
+  }
+  .howtowork {
+    background-size: contain;
+  }
+  .download__bg__images {
+    display: none;
+  }
+  .wrapper {
+    flex-direction: column-reverse;
+    &__image {
+      padding: 30px 0;
+    }
+  }
+  .burgers {
+    height: auto;
+    background-image: url(../img/269.svg);
+    &__info {
+      max-width: 370px;
+    }
+  }
+  .burgers__info__choose-pick {
+    width: auto;
+  }
+  .download {
+    padding: 30px 0;
+  }
+  .subscribe {
+    padding-top: 0px;
+  }
+  .feature {
+    flex-direction: column;
+    &__line {
+      display: none;
+    }
+    &__block {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 @media (max-width: 420px) {
 }
 
 @media (max-width: 375px) {
+  .products {
+    &__product {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .burgers__info__choose-btn{
+position: relative;
+width: 187px;
+  }
+  .burgers__info__choose-pick{
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 320px) {
