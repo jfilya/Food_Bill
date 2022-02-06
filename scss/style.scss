@@ -819,9 +819,17 @@ footer {
       margin-bottom: 30px;
     }
   }
+
 }
 
 @media (max-width: 420px) {
+  .burgers__info__choose-btn{
+    position: relative;
+    width: 187px;
+      }
+      .burgers__info__choose-pick{
+        margin-bottom: 15px;
+      }
 }
 
 @media (max-width: 375px) {
@@ -832,13 +840,8 @@ footer {
       }
     }
   }
-  .burgers__info__choose-btn{
-position: relative;
-width: 187px;
-  }
-  .burgers__info__choose-pick{
-    margin-bottom: 15px;
-  }
+
+
 }
 
 @media (max-width: 320px) {
