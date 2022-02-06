@@ -5,6 +5,7 @@
 }
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ::-ms-reveal {
@@ -135,7 +136,7 @@ header {
   font-size: 16px;
   line-height: 19px;
 }
-.header__top__nav li button {
+.header__top__nav li:last-child a {
   background-color: #f16214;
   color: #fff;
   border-radius: 120px;

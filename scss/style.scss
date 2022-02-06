@@ -5,6 +5,7 @@
 }
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 ::-ms-reveal {
   display: none;
@@ -121,13 +122,15 @@ header {
           font-size: 16px;
           line-height: 19px;
         }
-        button {
-          background-color: #f16214;
-          color: #fff;
-          border-radius: 120px;
-          padding: 7px 17px;
-          font-size: 13px;
-          line-height: 16px;
+        &:last-child {
+          a {
+            background-color: #f16214;
+            color: #fff;
+            border-radius: 120px;
+            padding: 7px 17px;
+            font-size: 13px;
+            line-height: 16px;
+          }
         }
       }
     }
@@ -715,7 +718,7 @@ footer {
   .services__choose__service {
     margin-bottom: 30px;
   }
-  .footer__block{
+  .footer__block {
     margin-bottom: 30px;
   }
 }
@@ -819,17 +822,16 @@ footer {
       margin-bottom: 30px;
     }
   }
-
 }
 
 @media (max-width: 420px) {
-  .burgers__info__choose-btn{
+  .burgers__info__choose-btn {
     position: relative;
     width: 187px;
-      }
-      .burgers__info__choose-pick{
-        margin-bottom: 15px;
-      }
+  }
+  .burgers__info__choose-pick {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -840,8 +842,6 @@ footer {
       }
     }
   }
-
-
 }
 
 @media (max-width: 320px) {
