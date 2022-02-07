@@ -321,6 +321,8 @@ header {
   display: flex;
 }
 .download {
+  justify-content: center;
+    display: flex;
   padding: 230px 0;
   &__bg {
     border-radius: 60px 0px;
@@ -332,6 +334,7 @@ header {
     padding: 86px 29px;
     display: flex;
     justify-content: space-between;
+    max-width: 1170px;
     &__simple {
       h3 {
         max-width: 321px;
@@ -349,7 +352,7 @@ header {
       position: relative;
       width: 594.09px;
       height: 660px;
-      right: 5%;
+      right: 3%;
       &-img1 {
         top: -39%;
         position: absolute;
@@ -440,6 +443,8 @@ header {
 }
 .subscribe {
   padding: 100px 0;
+  justify-content: center;
+    display: flex;
   &__burgers {
     display: flex;
     justify-content: flex-end;
@@ -593,6 +598,13 @@ footer {
     background-image: url(../img/image1400.png);
     background-size: auto;
   }
+  .download{
+    &__bg{
+      &__images{
+        right: 4%;
+      }
+    }
+  }
 }
 
 @media (max-width: 1280px) {
@@ -616,9 +628,6 @@ footer {
   .download {
     &__bg {
       background-size: auto;
-      &__images {
-        right: 10%;
-      }
     }
   }
   .products {
@@ -684,6 +693,7 @@ footer {
   .download {
     &__bg {
       padding: 25px 29px;
+      max-width: 760px;
       &__images {
         right: 0%;
         &-img1 {
@@ -696,6 +706,7 @@ footer {
     }
   }
   .burgers {
+    max-width: 760px;
     &__image {
       img {
         width: 100%;

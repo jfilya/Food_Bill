@@ -334,6 +334,8 @@ header {
 }
 
 .download {
+  justify-content: center;
+  display: flex;
   padding: 230px 0;
 }
 .download__bg {
@@ -346,6 +348,7 @@ header {
   padding: 86px 29px;
   display: flex;
   justify-content: space-between;
+  max-width: 1170px;
 }
 .download__bg__simple h3 {
   max-width: 321px;
@@ -362,7 +365,7 @@ header {
   position: relative;
   width: 594.09px;
   height: 660px;
-  right: 5%;
+  right: 3%;
 }
 .download__bg__images-img1 {
   top: -39%;
@@ -449,6 +452,8 @@ header {
 
 .subscribe {
   padding: 100px 0;
+  justify-content: center;
+  display: flex;
 }
 .subscribe__burgers {
   display: flex;
@@ -616,6 +621,10 @@ footer {
     background-image: url(../img/image1400.png);
     background-size: auto;
   }
+
+  .download__bg__images {
+    right: 4%;
+  }
 }
 @media (max-width: 1280px) {
   header {
@@ -632,9 +641,6 @@ footer {
 
   .download__bg {
     background-size: auto;
-  }
-  .download__bg__images {
-    right: 10%;
   }
 
   .products {
@@ -691,6 +697,7 @@ footer {
 
   .download__bg {
     padding: 25px 29px;
+    max-width: 760px;
   }
   .download__bg__images {
     right: 0%;
@@ -702,6 +709,9 @@ footer {
     display: none;
   }
 
+  .burgers {
+    max-width: 760px;
+  }
   .burgers__image img {
     width: 100%;
     top: 6%;
