@@ -466,7 +466,7 @@ header {
 
 .burgers {
   background: url(../img/BGburgers.svg);
-  max-width: 1170px;
+  width: 100%;
   height: 300px;
   display: flex;
   justify-content: space-between;
@@ -612,6 +612,10 @@ footer {
   margin-bottom: 0px;
 }
 
+.footer__block {
+  margin-right: 5px;
+}
+
 @media (max-width: 1440px) {
   .container {
     width: 1280px;
@@ -667,7 +671,7 @@ footer {
 }
 @media (max-width: 1024px) {
   .container {
-    max-width: 960px;
+    width: 960px;
   }
 
   .header__middle p {
