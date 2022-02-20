@@ -590,7 +590,7 @@ footer {
 .seebtn {
   margin-bottom: 0px;
 }
-.footer__block{
+.footer__block {
   margin-right: 5px;
   min-width: 115px;
 }
@@ -616,8 +616,7 @@ footer {
     max-width: 155px;
   }
 }
-
-@media screen and  (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .container {
     width: 1025px;
   }
@@ -653,8 +652,7 @@ footer {
     justify-content: space-around;
   }
 }
-
-@media screen and  (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: 960px;
   }
@@ -691,7 +689,7 @@ footer {
   }
 }
 
-@media screen and  (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .container {
     width: 769px;
   }
@@ -701,7 +699,6 @@ footer {
   .howtowork {
     background-position: top left;
   }
-
   .howtowork {
     &__food {
       padding-bottom: 0px;
@@ -730,10 +727,11 @@ footer {
           left: 4%;
           max-width: 100%;
         }
-      
-      &-img2 {
-        display: none;
-      }}
+
+        &-img2 {
+          display: none;
+        }
+      }
     }
   }
 
@@ -769,7 +767,7 @@ footer {
   }
 }
 
-@media screen and  (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 577px;
   }
@@ -813,8 +811,8 @@ footer {
   }
 }
 
-@media screen and  (max-width: 576px) {
-  .container{
+@media screen and (max-width: 576px) {
+  .container {
     width: 420px;
   }
   h1 {
@@ -873,8 +871,8 @@ footer {
   }
 }
 
-@media screen and  (max-width: 420px) {
-  .container{
+@media screen and (max-width: 420px) {
+  .container {
     width: 375px;
   }
   .burgers__info__choose-btn {
@@ -886,9 +884,9 @@ footer {
   }
 }
 
-@media screen and  (max-width: 375px) {
-  .container{
-     width: 320px; 
+@media screen and (max-width: 375px) {
+  .container {
+    width: 320px;
   }
   .products {
     &__product {
