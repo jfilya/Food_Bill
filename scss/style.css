@@ -535,7 +535,7 @@ footer {
 }
 
 .copyrights__line {
-  max-width: 1170px;
+  width: 100%;
   height: 1.5px;
   background-color: #dddddd;
   margin-bottom: 23px;
@@ -614,7 +614,7 @@ footer {
 
 @media (max-width: 1440px) {
   .container {
-    max-width: 100%;
+    width: 1280px;
   }
 
   header {
@@ -629,8 +629,16 @@ footer {
   .download__bg__images {
     right: -2%;
   }
+
+  .footer__block__list {
+    max-width: 155px;
+  }
 }
 @media (max-width: 1280px) {
+  .container {
+    width: 1025px;
+  }
+
   header {
     background-image: url(../img/Product1025.png);
   }
@@ -659,7 +667,7 @@ footer {
 }
 @media (max-width: 1024px) {
   .container {
-    max-width: 981px;
+    max-width: 960px;
   }
 
   .header__middle p {
@@ -683,18 +691,22 @@ footer {
   .footer__block__choose-pick {
     width: 168px;
   }
+
+  .wrapper__image {
+    width: 50%;
+  }
 }
 @media (max-width: 960px) {
+  .container {
+    width: 769px;
+  }
+
   header {
     background-image: url(../img/Product769.png);
   }
 
   .howtowork {
     background-position: top left;
-  }
-
-  .wrapper__image {
-    width: 50%;
   }
 
   .howtowork__food {
@@ -714,14 +726,15 @@ footer {
 
   .download__bg {
     padding: 25px 29px;
-    max-width: 760px;
+    max-width: 90%;
   }
   .download__bg__images {
     right: 0%;
   }
   .download__bg__images-img1 {
-    top: -29%;
-    left: 16%;
+    top: -7%;
+    left: 4%;
+    max-width: 100%;
   }
   .download__bg__images-img2 {
     display: none;
@@ -755,8 +768,16 @@ footer {
   .footer__block {
     margin-bottom: 30px;
   }
+
+  .footer__block__list {
+    max-width: 220px;
+  }
 }
 @media (max-width: 768px) {
+  .container {
+    width: 577px;
+  }
+
   .header__top {
     display: block;
     padding-bottom: 60px;
@@ -782,10 +803,6 @@ footer {
     display: none;
   }
 
-  .download__bg__images-img1 {
-    right: -16%;
-  }
-
   .burgers__info {
     padding: 50px 30px 51px 30px;
   }
@@ -799,6 +816,10 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .container {
+    width: 420px;
+  }
+
   h1 {
     font-size: 45px;
     line-height: 65px;
@@ -867,6 +888,10 @@ footer {
   }
 }
 @media (max-width: 420px) {
+  .container {
+    width: 375px;
+  }
+
   .burgers__info__choose-btn {
     position: relative;
     width: 187px;
@@ -877,6 +902,10 @@ footer {
   }
 }
 @media (max-width: 375px) {
+  .container {
+    width: 320px;
+  }
+
   .products__product img {
     width: 100%;
   }
