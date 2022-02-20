@@ -365,16 +365,20 @@ header {
   position: relative;
   width: 594.09px;
   height: 660px;
-  right: 3%;
+  right: -2%;
 }
 .download__bg__images-img1 {
   top: -39%;
   position: absolute;
+  box-shadow: 20px 28px 90px -15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
 }
 .download__bg__images-img2 {
   top: -32%;
   position: absolute;
-  left: 295px;
+  left: 50%;
+  box-shadow: 20px 28px 90px -15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
 }
 
 .testi {
@@ -623,7 +627,7 @@ footer {
   }
 
   .download__bg__images {
-    right: 4%;
+    right: -2%;
   }
 }
 @media (max-width: 1280px) {
@@ -642,6 +646,12 @@ footer {
   .download__bg {
     background-size: auto;
   }
+  .download__bg__images {
+    right: 0%;
+  }
+  .download__bg__images-img1 {
+    left: -8%;
+  }
 
   .products {
     justify-content: space-around;
@@ -649,7 +659,7 @@ footer {
 }
 @media (max-width: 1024px) {
   .container {
-    max-width: 100%;
+    max-width: 981px;
   }
 
   .header__middle p {
@@ -659,12 +669,19 @@ footer {
   .howtowork__food__right {
     max-width: 386px;
   }
+  .howtowork__food__right-img2 {
+    left: 60%;
+  }
 
   .download__bg {
     background-size: auto;
   }
   .download__bg__images {
-    right: 15%;
+    right: 2%;
+  }
+
+  .footer__block__choose-pick {
+    width: 168px;
   }
 }
 @media (max-width: 960px) {
@@ -704,6 +721,7 @@ footer {
   }
   .download__bg__images-img1 {
     top: -29%;
+    left: 16%;
   }
   .download__bg__images-img2 {
     display: none;
