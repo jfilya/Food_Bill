@@ -675,6 +675,12 @@ footer {
     width: 960px;
   }
 
+  * {
+    -webkit-text-size-adjust: none;
+       -moz-text-size-adjust: none;
+            text-size-adjust: none;
+  }
+
   .header__middle p {
     max-width: 470px;
   }
@@ -699,6 +705,11 @@ footer {
 
   .wrapper__image {
     width: 50%;
+  }
+
+  .burgers__image img {
+    max-width: 100%;
+    top: -11%;
   }
 }
 @media screen and (max-width: 960px) {

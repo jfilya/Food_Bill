@@ -656,6 +656,9 @@ footer {
   .container {
     width: 960px;
   }
+  *{
+    text-size-adjust:none;
+  }
   .header__middle {
     p {
       max-width: 470px;
@@ -687,6 +690,15 @@ footer {
       width: 50%;
     }
   }
+  .burgers{
+    &__image{
+      img{
+        max-width: 100%;
+        top: -11%;
+      }
+    }
+  }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -895,7 +907,4 @@ footer {
       }
     }
   }
-}
-
-@media screen and (max-width: 320px) {
 }
